@@ -1,0 +1,2 @@
+fake-bpy-module==20260919
+numpy==2.4.6

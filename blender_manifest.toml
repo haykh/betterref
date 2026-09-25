@@ -1,0 +1,35 @@
+schema_version = "1.0.0"
+
+id = "betterref"
+version = "0.1.0"
+name = "BetterRef"
+tagline = "Better tools for working with reference images"
+maintainer = "Hayk Hakobyan <haykh.astro@gmail.com>"
+type = "add-on"
+
+website = "https://github.com/haykh/betterref/"
+
+tags = ["3D View", "Object", "User Interface"]
+
+blender_version_min = "4.5.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2026 Hayk Hakobyan"]
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/.git/",
+  "/*.zip",
+  "/tests/",
+  "/docs/",
+  "/.vscode/",
+  "/scratch/",
+  "/.venv/",
+  "/.ruff_cache/",
+  "/pyrefly.toml",
+  "/ruff.toml",
+  "/requirements.txt",
+  "/README.md",
+  "/.gitignore",
+]

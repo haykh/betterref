@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "charliermarsh.ruff",
+    "jacqueslucke.blender-development",
+    "meta.pyrefly",
+    "tamasfe.even-better-toml"
+  ]
+}
